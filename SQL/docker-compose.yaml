@@ -1,0 +1,14 @@
+services:
+  postgres:
+    container_name: "cs5644db"
+    image: postgres:9.6
+    restart: always
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./seed.sql:/docker-entrypoint-initdb.d/seed.sql
+    ports:
+     - 5432:5432
+    environment:
+      POSTGRES_DB: cs
+      POSTGRES_PASSWORD: pass
+      POSTGRES_USER: user

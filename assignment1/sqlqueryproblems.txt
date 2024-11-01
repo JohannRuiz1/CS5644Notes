@@ -1,0 +1,87 @@
+Practice writing SQL queries
+-----------------------------
+
+For this question, we will consider the following tables about
+people, grades, and courses. Your task is to express each
+of the given queries in SQL. Example data are provided in these
+tables for your convenience but note that they are only example data. 
+Your queries must work for all potential data residing in the given 
+tables, not just those illustrated here.
+
+People (id, name, age, address)
+---------------------------------------------------
+p1  | Tom Martin| 24 | 11, Integer Avenue, Fractions, MA
+p2  | Al Smith  | 33 | 26, Main Street, Noman's Land, PA
+p3  | Kim Burton| 40 | 45, Elm Street, Blacksburg, VA
+---------------------------------------------------
+
+Courses (id, name, department)
+---------------------------------------------------------
+c1 | Systematic Torture | MATH
+c2 | Pretty Painful     | CS
+c3 | Not so Bad         | MATH
+c4 | Big Data 		      | CS
+---------------------------------------------------------
+
+Grades (pid, cid, grade)
+---------------------------------------------------
+p1  |  c1    	| 3.5 
+p2  |  c3		| 2.5
+p3  |  c2      | 4.0
+p3  |  c4      | 3.85
+---------------------------------------------------
+
+1. Find the names of courses taken by Tom Martin.
+
+# Implicit Join
+SELECT C.name FROM People AS P, Courses AS C, Grades AS G WHERE P.id = G.pid AND C.id = G.cid AND P.name = 'Tom Martin';
+
+# Explicit Join
+SELECT C.name FROM People AS P JOIN Grades AS G ON P.id = G.pid JOIN Courses AS C ON G.cid = C.id WHERE p.name = 'Tom Martin';
+
+2. Print person name, course name, and grade in a convenient format.
+
+SELECT P.name, C.name, G.grade FROM People AS P, Courses AS C, Grades AS G WHERE P.id = G.pid AND C.id = G.cid;
+
+3. Print person names and their grades in MATH courses.
+
+SELECT P.name, G.grade FROM People AS P, Courses AS C, Grades AS G WHERE P.id = G.pid AND C.id = G.cid AND C.department = 'MATH';
+
+4. Find the names of courses that people from VA have taken.
+
+SELECT C.name FROM People AS P, Courses AS C, Grades AS G WHERE P.id = G.pid AND C.id = G.cid AND P.address LIKE '%VA%';
+
+5. Find the names of people who received a grade of 3 or better in some
+   course. List the namesmes of these people alongside the course names.
+
+SELECT P.name, C.name FROM People AS P, Courses AS C, Grades AS G WHERE P.id = G.pid AND C.id = G.cid AND G.grade >= 3;
+
+6. Find the names of people who received a grade of 3.5 or better in at
+   least two courses.
+
+SELECT DISTINCT P.name FROM People AS P, Grades AS G1, Grades AS G2 WHERE G1.pid = G2.pid AND G1.cid != G2.cid AND G1.grade >= 3.5 AND G2.grade >= 3.5 AND P.id = G1.pid;
+
+7. Find the names of people who received a grade of 3.5 or better in at least
+   three courses.
+
+SELECT DISTINCT P.name FROM People AS P, Grades AS G1, Grades AS G2, Grades AS G3  WHERE G1.pid = G2.pid AND G2.pid = G3.pid AND G1.pid = G3.pid  AND G1.cid != G2.cid AND G2.cid != G3.cid AND G1.cid != G3.cid AND G1.grade >= 3.5 AND G2.grade >= 3.5 AND G3.grade >= 3.5 AND P.id = G1.pid;
+
+8. Find the names of people who received a grade of 3.5 or better in exactly
+   two courses.
+
+
+9. What is the name of the person who received the highest grade in the "Big Data" course?
+
+SELECT P.name FROM People AS P, Courses AS C, Grades AS G WHERE P.id = G.pid AND C.id = G.cid AND C.name = 'Big Data' ORDER BY G.grade DESC LIMIT 1;
+
+10. This question builds on the previous question; what is the name of the person
+   who received the second highest grade in the "Big Data" course? 
+
+SELECT P.name FROM People AS P, Courses AS C, Grades AS G WHERE P.id = G.pid AND C.id = G.cid AND C.name = 'Big Data' ORDER BY G.grade DESC LIMIT 1 OFFSET 1;
+
+11. Find the names of people who received a grade of 3.5 or better in every course (given in
+   the Courses table).
+
+
+12. Find the names of people who received a grade of 3.5 or better in every course they have taken.
+

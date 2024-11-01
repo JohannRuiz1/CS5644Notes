@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "a2aeef1960af5e4c",
+    "type": "split",
+    "children": [
+      {
+        "id": "231e9b63b1bf2d9b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fad75208d28468c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "(k) Nearest Neighbors (kNN).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6a2ff94254db6d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "(k) Nearest Neighbors (kNN).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "476611055bae243f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Classifier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "398b6ec051d5d97c",
+    "type": "split",
+    "children": [
+      {
+        "id": "be5dcdd1a59fefbd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68f917c55c433772",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f2a90ba61138ab7d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "96f11c31fcb2c073",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 284.5
+  },
+  "right": {
+    "id": "06fc7bd2ce02b60a",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f888d03c070f570",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51e22eb2350b2f67",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "(k) Nearest Neighbors (kNN).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7b0be9fa972f6d76",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "(k) Nearest Neighbors (kNN).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "338165f650fa5321",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6dbd4a5028c1a343",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "(k) Nearest Neighbors (kNN).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "fad75208d28468c8",
+  "lastOpenFiles": [
+    "Regression.md",
+    "(k) Nearest Neighbors (kNN).md",
+    "Decision Tree Classifier.md",
+    "Introduction to Machine Learning.md",
+    "Pictures/Pasted image 20241014202046.png",
+    "Naive Bayes Classifier.md",
+    "Untitled.canvas",
+    "Pictures/Pasted image 20241015072912.png",
+    "Pictures/Pasted image 20241015072327.png",
+    "Linear Classifier.md",
+    "Untitled",
+    "Pictures/Pasted image 20241014205717.png",
+    "Pictures/Pasted image 20241005110818.png",
+    "Pictures/Pasted image 20241014202639.png",
+    "Pictures/Pasted image 20241014202524.png",
+    "Pictures/Pasted image 20241005151746.png",
+    "Pictures/Pasted image 20241005151326.png",
+    "Pictures/Pasted image 20241005151052.png",
+    "Pictures"
+  ]
+}

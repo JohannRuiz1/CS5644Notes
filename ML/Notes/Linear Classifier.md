@@ -1,0 +1,17 @@
+![[Pasted image 20241014205717.png]]
+- Forms of "model" in a linear classifier
+	- Geometry of the line (2D) or plane (in higher dimensions)
+	- The coefficients of the linear expression
+	- Which side of the line is the class
+- How to learn a classifier
+	- Estimating the weights <b>w</b>
+	- Solution
+		- Mistake-driven approach
+		- Guess all weights
+		- Repeat
+		- Only works if examples are linearly separable in the first place
+	- Not linearly separable
+		- Come up with complex constructs
+		- one hyperplane = one nueron
+		- lots of hyperplanes = neural netwrok
+		- zillions of hyperplanes = deep neural network
