@@ -13,26 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regression.md",
+                "file": "(k) Nearest Neighbors (kNN).md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Regression"
-            }
-          },
-          {
-            "id": "fac16b99592cdf1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Association Analysis.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Association Analysis"
+              }
             }
           },
           {
@@ -41,26 +25,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(k) Nearest Neighbors (kNN).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "(k) Nearest Neighbors (kNN)"
-            }
-          },
-          {
-            "id": "476611055bae243f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Linear Classifier.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linear Classifier"
+              }
             }
           }
         ],
@@ -84,9 +52,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              }
             }
           },
           {
@@ -101,9 +67,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
+              }
             }
           },
           {
@@ -111,16 +75,14 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 200
   },
   "right": {
     "id": "06fc7bd2ce02b60a",
@@ -136,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Association Analysis.md",
+                "file": "Linear Classifier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,9 +106,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Association Analysis"
+              }
             }
           },
           {
@@ -155,12 +115,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Association Analysis.md",
+                "file": "Linear Classifier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Association Analysis"
+              }
             }
           },
           {
@@ -171,9 +129,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              }
             }
           },
           {
@@ -182,10 +138,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Association Analysis.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Association Analysis"
+                "file": "Linear Classifier.md"
+              }
             }
           }
         ]
@@ -205,27 +159,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fac16b99592cdf1f",
+  "active": "c6a2ff94254db6d5",
   "lastOpenFiles": [
-    "Pasted image 20241103184348.png",
-    "Pasted image 20241103184116.png",
-    "Pasted image 20241103183820.png",
-    "Pictures/Pasted image 20241103175518.png",
+    "Untitled.md",
+    "Unsupervised Learning.md",
+    "Time Series Analytics.md",
+    "Pictures/Pasted image 20241103142704.png",
+    "Pictures/Pasted image 20241103135719.png",
+    "Pictures/Pasted image 20241103134859.png",
+    "Pictures/Pasted image 20241103133942.png",
+    "Pictures/Pasted image 20241103133609.png",
+    "Pictures/Pasted image 20241103133532.png",
+    "Pictures/Pasted image 20241103133356.png",
+    "Pictures/Pasted image 20241103133353.png",
+    "Pictures/Pasted image 20241103133302.png",
+    "Pictures/Pasted image 20241103133204.png",
+    "Neural Networks.md",
     "Association Analysis.md",
-    "Pictures/Pasted image 20241103175458.png",
-    "Pictures/Pasted image 20241103173945.png",
-    "Pictures/Pasted image 20241103173749.png",
-    "Pictures/Pasted image 20241103172838.png",
-    "Pictures/Pasted image 20241103170216.png",
-    "Regression.md",
     "Untitled.canvas",
-    "(k) Nearest Neighbors (kNN).md",
-    "Decision Tree Classifier.md",
-    "Introduction to Machine Learning.md",
-    "Pictures/Pasted image 20241014202046.png",
-    "Naive Bayes Classifier.md",
-    "Pictures/Pasted image 20241015072912.png",
     "Linear Classifier.md",
+    "Naive Bayes Classifier.md",
+    "Decision Tree Classifier.md",
+    "(k) Nearest Neighbors (kNN).md",
+    "Regression.md",
+    "Introduction to Machine Learning.md",
     "Untitled",
     "Pictures"
   ]
