@@ -13,10 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(k) Nearest Neighbors (kNN).md",
+                "file": "Regression.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Regression"
+            }
+          },
+          {
+            "id": "fac16b99592cdf1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Association Analysis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Association Analysis"
             }
           },
           {
@@ -25,10 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "(k) Nearest Neighbors (kNN).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "(k) Nearest Neighbors (kNN)"
+            }
+          },
+          {
+            "id": "476611055bae243f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Linear Classifier.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Linear Classifier"
             }
           }
         ],
@@ -52,7 +84,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -67,7 +101,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -75,14 +111,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 284.5
   },
   "right": {
     "id": "06fc7bd2ce02b60a",
@@ -98,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Classifier.md",
+                "file": "Association Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +144,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Association Analysis"
             }
           },
           {
@@ -115,10 +155,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Classifier.md",
+                "file": "Association Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Association Analysis"
             }
           },
           {
@@ -129,7 +171,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -138,8 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Classifier.md"
-              }
+                "file": "Association Analysis.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Association Analysis"
             }
           }
         ]
@@ -159,9 +205,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c6a2ff94254db6d5",
+  "active": "fac16b99592cdf1f",
   "lastOpenFiles": [
-    "Untitled.md",
     "Unsupervised Learning.md",
     "Time Series Analytics.md",
     "Pictures/Pasted image 20241103142704.png",
@@ -176,13 +221,13 @@
     "Pictures/Pasted image 20241103133204.png",
     "Neural Networks.md",
     "Association Analysis.md",
-    "Untitled.canvas",
-    "Linear Classifier.md",
-    "Naive Bayes Classifier.md",
-    "Decision Tree Classifier.md",
-    "(k) Nearest Neighbors (kNN).md",
     "Regression.md",
+    "Untitled.canvas",
+    "(k) Nearest Neighbors (kNN).md",
+    "Decision Tree Classifier.md",
     "Introduction to Machine Learning.md",
+    "Naive Bayes Classifier.md",
+    "Linear Classifier.md",
     "Untitled",
     "Pictures"
   ]
