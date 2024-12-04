@@ -8,59 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fad75208d28468c8",
+            "id": "10ce195ed06c2827",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regression.md",
+                "file": "Big Technologies.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Regression"
+              }
             }
           },
           {
-            "id": "fac16b99592cdf1f",
+            "id": "467591b3f1708d9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Association Analysis.md",
+                "file": "ML Algorithms on Big Data Infra.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Association Analysis"
-            }
-          },
-          {
-            "id": "c6a2ff94254db6d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "(k) Nearest Neighbors (kNN).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "(k) Nearest Neighbors (kNN)"
-            }
-          },
-          {
-            "id": "476611055bae243f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linear Classifier.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linear Classifier"
+              }
             }
           }
         ],
@@ -84,9 +52,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              }
             }
           },
           {
@@ -101,9 +67,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
+              }
             }
           },
           {
@@ -111,16 +75,15 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "06fc7bd2ce02b60a",
@@ -136,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Association Analysis.md",
+                "file": "ML Algorithms on Big Data Infra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,9 +107,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Association Analysis"
+              }
             }
           },
           {
@@ -155,12 +116,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Association Analysis.md",
+                "file": "ML Algorithms on Big Data Infra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Association Analysis"
+              }
             }
           },
           {
@@ -171,9 +130,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              }
             }
           },
           {
@@ -182,10 +139,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Association Analysis.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Association Analysis"
+                "file": "ML Algorithms on Big Data Infra.md"
+              }
             }
           }
         ]
@@ -205,29 +160,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fac16b99592cdf1f",
+  "active": "467591b3f1708d9f",
   "lastOpenFiles": [
+    "Pasted image 20241123112704.png",
+    "Pasted image 20241123095725.png",
+    "Big Technologies.md",
+    "ML Algorithms on Big Data Infra.md",
+    "Pasted image 20241110194400.png",
+    "Pasted image 20241110193620.png",
+    "Pasted image 20241110193454.png",
+    "Pasted image 20241110193444.png",
+    "Pasted image 20241110192829.png",
+    "Pasted image 20241110192818.png",
+    "Pictures/Pasted image 20241103183820.png",
+    "Linear Classifier.md",
     "Unsupervised Learning.md",
     "Time Series Analytics.md",
     "Pictures/Pasted image 20241103142704.png",
     "Pictures/Pasted image 20241103135719.png",
-    "Pictures/Pasted image 20241103134859.png",
-    "Pictures/Pasted image 20241103133942.png",
-    "Pictures/Pasted image 20241103133609.png",
-    "Pictures/Pasted image 20241103133532.png",
-    "Pictures/Pasted image 20241103133356.png",
-    "Pictures/Pasted image 20241103133353.png",
-    "Pictures/Pasted image 20241103133302.png",
-    "Pictures/Pasted image 20241103133204.png",
     "Neural Networks.md",
     "Association Analysis.md",
-    "Regression.md",
     "Untitled.canvas",
-    "(k) Nearest Neighbors (kNN).md",
-    "Decision Tree Classifier.md",
-    "Introduction to Machine Learning.md",
     "Naive Bayes Classifier.md",
-    "Linear Classifier.md",
+    "Decision Tree Classifier.md",
+    "(k) Nearest Neighbors (kNN).md",
+    "Regression.md",
+    "Introduction to Machine Learning.md",
     "Untitled",
     "Pictures"
   ]
